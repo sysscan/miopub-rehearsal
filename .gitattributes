@@ -1,0 +1,3 @@
+# The loader verifies each bundle byte-for-byte against a hash the Worker publishes, so the artifact
+# host must never normalise line endings. Mirrors the production artifact repository's policy.
+games/**/bundle-obfuscated.lua -text
